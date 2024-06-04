@@ -16,6 +16,10 @@ View Teachers and Subjects: Admins can see the list of teachers and the subjects
 Global Subject List: Admins can view all subjects available in the system.
 Assign Subjects: Admins can add or remove subjects from teachers.
 
+Languages Used:
+Java for system development.
+Java Swing for the gui
+
 Setup Instructions
 Clone this repository to your local machine.
 Set up your MySQL database with the necessary tables for students, teachers, subjects, and grades.
