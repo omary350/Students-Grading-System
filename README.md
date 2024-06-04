@@ -23,9 +23,10 @@ Java Swing for the gui
 Setup Instructions
 Clone this repository to your local machine.
 Set up your MySQL database with the necessary tables for students, teachers, subjects, and grades.
+ERD diagram is provided in other docs folder with all tables used, you should only create them with the constraints in MySql.
 Configure the database connection in the application, Edit databaseconnection.java file to connect to MySql database.
 Build and run the application.
-ERD diagram is provided whith all tables used, you should only create them with the constraints in MySql.
+
 
 Usage
 Log in as a teacher or admin.
