@@ -16,14 +16,14 @@ public class databaseConnection {
     private databaseConnection() {
         // private constructor to prevent instantiation
     }
-
+//Enter MySql Database info
         private static DataSource getDataSource(){
             MysqlDataSource dataSource = new MysqlDataSource();
-            dataSource.setServerName("localhost");
-            dataSource.setPort(3306);
+            dataSource.setServerName("");
+            dataSource.setPort();
             dataSource.setDatabaseName("studentgradesystem");
-            dataSource.setUser("root");
-            dataSource.setPassword("omarSql20180394");
+            dataSource.setUser("");
+            dataSource.setPassword("");
             return dataSource;
         }
     public static Connection getConnection() throws SQLException {
